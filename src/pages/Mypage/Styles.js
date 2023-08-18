@@ -8,10 +8,12 @@ export const SLayout = css`
 
   margin: 50px auto;
   border: 1px solid #dbdbdb;
+  border-radius: 12px;
   padding: 20px;
   width: 500px;
-  height: 500px;
+  height: 600px;
   background-color: #99ccff;
+
 `;
 
 export const SContainer = css`
@@ -45,6 +47,8 @@ export const SFileHidden = css`
 
 export const SInputArea = css`
     margin-top: 10px;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const SBtn = css`
